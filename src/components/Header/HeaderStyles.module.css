@@ -1,0 +1,106 @@
+/* Header Container */
+.header {
+    color: var(--primary-dark-green); /* Dark Green text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    flex-wrap: wrap; /* Allow items to wrap for smaller screens */
+    position: relative; /* Ensure that absolute positioning of menu works */
+}
+
+/* Logo Style */
+.logo {
+    font-family: "Satisfy", cursive;
+    font-size: 30px; /* Larger font size for prominence */
+    font-weight: bold;
+    color: var(--primary-dark-green); /* Dark Green text color */
+    letter-spacing: 1px; /* Slightly spaced letters */
+}
+
+/* Menu Icon (Hamburger) */
+.menuIcon {
+    display: none; /* Hide menu icon by default */
+    cursor: pointer;
+    font-size: 24px; /* Adjust size of the hamburger icon */
+    color: var(--primary-dark-green); /* Match the text color */
+    background: none; /* Remove any default background */
+    border: none; /* Remove default border */
+}
+
+/* Navigation Style */
+.nav {
+    display: flex;
+    gap: 20px; /* Spacing between links */
+}
+
+/* Navigation Links */
+.nav a {
+    color: var(--primary-dark-green); /* Light Beige text color */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500; /* Slightly bold for readability */
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding: 5px 0; /* Space above and below the text */
+    border-bottom: 2px solid transparent; /* Underline effect on hover */
+}
+
+.nav a:hover {
+    color: var(--primary-light-green); /* Light Green text color on hover */
+    border-bottom: 2px solid var(--primary-light-green); /* Underline effect */
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack logo and nav vertically */
+        align-items: flex-start; /* Align items to the start for better readability */
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+
+    .menuIcon {
+        display: block; /* Show menu icon on small screens */
+        position: absolute; /* Position relative to header */
+        top: 15px; /* Adjust based on header padding */
+        right: 20px; /* Push to the rightmost side */
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column; /* Stack navigation links vertically */
+        gap: 10px; /* Reduced spacing between links */
+        width: 100%; /* Full width for the nav links */
+        position: absolute;
+        top: 60px; /* Adjust based on header height */
+        left: 0;
+        transition: max-height 0.3s ease;
+        max-height: 0; /* Hide menu by default */
+        overflow: hidden;
+    }
+
+    .nav.showMenu {
+        max-height: 300px; /* Adjust based on content */
+    }
+
+    .nav a {
+        font-size: 14px; /* Slightly smaller font size */
+        padding: 8px 0; /* Increased padding for easier touch targets */
+        border-bottom: none; /* Remove underline effect on small screens */
+    }
+
+    .nav a:hover {
+        color: var(--primary-light-green); /* Keep hover effect */
+        border-bottom: none; /* Remove underline effect on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 24px; /* Slightly smaller font size for logo */
+    }
+
+    .nav a {
+        font-size: 12px; /* Smaller font size for links */
+    }
+}

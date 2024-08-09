@@ -1,6 +1,6 @@
 /* Header Container */
 .header {
-    height: 70px;
+    height: 60px;
     color: var(--primary-dark-green); /* Dark Green text */
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@
         flex-direction: row; /* Stack logo and nav vertically */
         align-items: center; /* Align items to the start for better readability */
         padding: 10px; /* Reduced padding for smaller screens */
-        height: 70px;
+        height: 60px;
     }
 
     .menuIcon {

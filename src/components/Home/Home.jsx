@@ -13,6 +13,11 @@ function Home() {
                     <a href="#products" className={styles.heroButton}>Explore Our Products</a>
                 </div>
             </div>
+            <div className={styles.installationCTA}>
+                <h2 className={styles.ctaTitle}>Ready to Go Solar?</h2>
+                <p className={styles.ctaSubtitle}>Get a professional solar installation with our expert team. Contact us today for a custom quote and start your journey towards energy independence!</p>
+                <a href="#quote" className={styles.ctaButton}>Request a Quote</a>
+            </div>
         </section>
     );
 }

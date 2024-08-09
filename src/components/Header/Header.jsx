@@ -23,7 +23,6 @@ function Header() {
                 <Link to="/products" onClick={toggleMenu}>Products</Link>
                 <Link to="/about" onClick={toggleMenu}>About Us</Link>
                 <Link to="/contact" onClick={toggleMenu}>Contact</Link>
-                <Link to="/quote" onClick={toggleMenu}>Request a Quote</Link>
             </nav>
         </header>
     );

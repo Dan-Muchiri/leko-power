@@ -1,9 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from './HomeStyles.module.css';
 import solarImage from '../../assets/solar-8656654_1280.webp'; // Path to your image
 
 function Home() {
+    const navigate = useNavigate();
+
+    // Handler functions for navigation
+    const handleExploreProducts = () => {
+        navigate('/products');
+    };
+
+    const handleRequestQuote = () => {
+        navigate('/contact');
+    };
+
     return (
         <section className={styles.home}>
             <div className={styles.hero}>
@@ -11,13 +22,17 @@ function Home() {
                 <div className={styles.heroContent}>
                     <h1 className={styles.heroTitle}>Empowering Your Future with Solar Energy</h1>
                     <p className={styles.heroSubtitle}>Leading Provider of Solar Equipment, Installations, and Maintenance</p>
-                    <Link to="/products" className={styles.heroButton}>Explore Our Products</Link>
+                    <button onClick={handleExploreProducts} className={styles.heroButton}>
+                        Explore Our Products
+                    </button>
                 </div>
             </div>
             <div className={styles.installationCTA}>
                 <h2 className={styles.ctaTitle}>Ready to Go Solar?</h2>
                 <p className={styles.ctaSubtitle}>Get a professional solar installation with our expert team. Contact us today for a custom quote and start your journey towards energy independence!</p>
-                <Link to="/quote" className={styles.ctaButton}>Request a Quote</Link>
+                <button onClick={handleRequestQuote} className={styles.ctaButton}>
+                    Request a Quote
+                </button>
             </div>
         </section>
     );

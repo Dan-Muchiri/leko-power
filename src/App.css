@@ -51,14 +51,6 @@ a:hover {
   color: var(--primary-light-green); /* Light Green hover effect */
 }
 
-/* Footer Styles */
-footer {
-  background-color: var(--primary-dark-green); /* Dark Green footer */
-  color: var(--accent-light-beige); /* Light Beige text */
-  text-align: center;
-  padding: 20px;
-}
-
 /* Utility Classes */
 .text-center {
   text-align: center;

@@ -1,0 +1,197 @@
+/* src/components/ProductsStyles.module.css */
+.productPage {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.pageTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filterSection {
+    margin-bottom: 20px;
+}
+
+.filterTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.filterContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filterSelect {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+.searchInput {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 2;
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 20px;
+    justify-content: space-between; /* Distribute space between items */
+    padding: 10px 0; /* Add some vertical padding for aesthetics */
+}
+
+.productItem {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Further reduced padding */
+    width: calc(25% - 20px); /* Adjust width to fit 4 items per row */
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.productImage {
+    max-width: 65%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.productName {
+    font-size: 20px; /* Reduced font size */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.productDescription {
+    font-size: 14px; /* Reduced font size */
+    color: #666;
+}
+
+.productPrice {
+    font-size: 16px; /* Reduced font size */
+    font-weight: bold;
+    color: #333;
+}
+
+.purchaseButton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    color: #fff;
+    background-color: #25D366; /* WhatsApp color */
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.purchaseButton:hover {
+    background-color: #128C7E; /* WhatsApp color on hover */
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 768px) {
+    .productPage {
+        padding: 15px;
+    }
+
+    .pageTitle {
+        font-size: 24px;
+    }
+
+    .filterSection {
+        margin-bottom: 15px;
+    }
+
+    .filterTitle {
+        font-size: 20px;
+    }
+
+    .filterContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filterSelect,
+    .searchInput {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .productList {
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden; /* Disable horizontal scrolling on small screens */
+    }
+
+    .productItem {
+        width: 100%;
+        max-width: 400px; /* Adjusted max-width for small screens */
+        margin-bottom: 20px;
+    }
+
+    .productName {
+        font-size: 18px;
+    }
+
+    .productDescription {
+        font-size: 12px;
+    }
+
+    .productPrice {
+        font-size: 14px;
+    }
+}
+
+/* Styles for Very Small Screens (mobile phones) */
+@media (max-width: 480px) {
+    .pageTitle {
+        font-size: 20px;
+    }
+
+    .filterTitle {
+        font-size: 18px;
+    }
+
+    .filterContainer {
+        gap: 5px;
+    }
+
+    .filterSelect,
+    .searchInput {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .productItem {
+        padding: 10px; /* Reduced padding */
+        width: 100%; /* Full width on very small screens */
+    }
+
+    .productName {
+        font-size: 16px; /* Further reduced font size */
+    }
+
+    .productDescription {
+        font-size: 12px;
+    }
+
+    .productPrice {
+        font-size: 12px; /* Further reduced font size */
+    }
+
+    .purchaseButton {
+        font-size: 12px; /* Further reduced font size */
+        padding: 6px 12px; /* Further reduced padding */
+    }
+}

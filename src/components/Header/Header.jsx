@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import styles from './HeaderStyles.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Importing icons for hamburger and close
 
@@ -18,11 +19,11 @@ function Header() {
                 {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
             </div>
             <nav className={`${styles.nav} ${isMenuOpen ? styles.showMenu : ''}`}>
-                <a href="#home" onClick={toggleMenu}>Home</a>
-                <a href="#products" onClick={toggleMenu}>Products</a>
-                <a href="#about" onClick={toggleMenu}>About Us</a>
-                <a href="#contact" onClick={toggleMenu}>Contact</a>
-                <a href="#quote" onClick={toggleMenu}>Request a Quote</a>
+                <Link to="/" onClick={toggleMenu}>Home</Link>
+                <Link to="/products" onClick={toggleMenu}>Products</Link>
+                <Link to="/about" onClick={toggleMenu}>About Us</Link>
+                <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+                <Link to="/quote" onClick={toggleMenu}>Request a Quote</Link>
             </nav>
         </header>
     );

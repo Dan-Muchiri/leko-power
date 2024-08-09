@@ -20,6 +20,12 @@ body {
   background-color: var(--accent-pale-green); /* Set background to pale green */
 }
 
+/* Add padding-top to account for the height of the fixed header */
+.main-content {
+  padding-top: 70px; /* Adjust this value based on the height of your header */
+}
+
+
 /* Button Styles */
 button {
   background-color: var(--primary-light-green); /* Light Green button */

@@ -1,12 +1,30 @@
-import Header from "./components/Header/Header"
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import Products from './components/Products/Products';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Quote from './components/Quote/Quote';
 import './App.css';
-function App() {
 
+function App() {
   return (
-    <>
-      <Header/>
-    </>
-  )
+    <Router>
+      <Header />
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
+      </main>
+      <Footer />
+    </Router>
+  );
 }
 
-export default App
+export default App;

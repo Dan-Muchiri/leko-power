@@ -8,7 +8,7 @@ function Footer() {
                 <div className={styles.infoContainer}>
                     <div className={styles.contactInfo}>
                         <h4>Contact Us</h4>
-                        <p>Email: lekoenergy@gmail.com</p>
+                        <p>Email: <a href="mailto:lekoenergy@gmail.com" className={styles.emailLink}>lekoenergy@gmail.com</a></p>
                         <p>Phone: +254 708 005 538</p>
                     </div>
                     <div className={styles.address}>

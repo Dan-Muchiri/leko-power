@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './AboutStyles.module.css';
 
 function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to top of the page
+    }, []); // Empty dependency array ensures this runs only on mount
     return (
         <section className={styles.about}>
             <div className={styles.container}>

@@ -21,6 +21,9 @@
 .contactInfo, .address {
     flex: 1;
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h4 {
@@ -39,6 +42,26 @@ p {
     color: var(--accent-beige);
     margin-top: 20px;
 }
+
+.whatsappLink {
+    text-align: center;
+    color: #25D366;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 8px; /* Adds space between the icon and the text */
+}
+
+.whatsappLink:hover {
+    text-decoration: underline;
+    color: #25D366;
+}
+
+.whatsappIcon {
+    font-size: 35px; /* Adjust the size of the WhatsApp icon */
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {

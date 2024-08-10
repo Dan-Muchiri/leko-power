@@ -1,5 +1,5 @@
 // src/components/Products.jsx
-import React, { useState } from 'react';
+import React, { useState , useEffect } from 'react';
 import styles from './ProductsStyles.module.css';
 
 // Comprehensive product data
@@ -154,6 +154,10 @@ const categories = [
 const whatsappNumber = '+254708005538'; // Replace with your WhatsApp number
 
 function Products() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to top of the page
+    }, []); // Empty dependency array ensures this runs only on mount
+    
     const [selectedCategory, setSelectedCategory] = useState('All');
     const [searchQuery, setSearchQuery] = useState('');
 

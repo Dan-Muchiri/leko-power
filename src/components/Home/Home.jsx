@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './HomeStyles.module.css';
 import solarImage from '../../assets/solar-8656654_1280.webp'; // Path to your image
 
 function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to top of the page
+    }, []); // Empty dependency array ensures this runs only on mount
+    
     const navigate = useNavigate();
 
     // Handler functions for navigation

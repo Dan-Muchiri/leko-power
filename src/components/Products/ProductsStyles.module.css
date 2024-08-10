@@ -93,11 +93,14 @@
     background-color: #25D366; /* WhatsApp color */
     border-radius: 5px;
     text-decoration: none;
+    transition: transform 0.3s ease; /* Smooth transition */
 }
 
 .purchaseButton:hover {
-    background-color: #128C7E; /* WhatsApp color on hover */
+    transform: scale(1.1); /* Increase size by 10% */
+    color: #fff;
 }
+
 
 /* Responsive Styles for Small Screens */
 @media (max-width: 768px) {

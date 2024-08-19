@@ -355,7 +355,7 @@ const products = [
         name: "Floodlight 50W",
         category: "Floodlights",
         price: 2600,
-        description: "50W Floodlight 0427A50-02",
+        description: "50W Floodlight 4500mH, 10-15hrs charge, 160lm/w",
         image: "https://5.imimg.com/data5/SELLER/Default/2021/1/XE/VL/LE/13100888/25w-solar-flood-light-500x500.jpg"
     },
     {
@@ -363,7 +363,7 @@ const products = [
         name: "Floodlight 100W",
         category: "Floodlights",
         price: 3000,
-        description: "100W Floodlight 0427B100-02",
+        description: "100W Floodlight 6000mAH, 10-15hrs charge, 160lm/w",
         image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
     },
     {
@@ -371,7 +371,7 @@ const products = [
         name: "Floodlight 200W",
         category: "Floodlights",
         price: 4000,
-        description: "200W Floodlight 0427D200-02",
+        description: "200W Floodlight 12000mAH, 10-15hrs charge, 160lm/w",
         image: "https://m.media-amazon.com/images/I/61u10vYySVL._SL1500_.jpg"
     },
     {
@@ -379,7 +379,7 @@ const products = [
         name: "Floodlight 300W",
         category: "Floodlights",
         price: 4800,
-        description: "300W Floodlight 0427D300-02",
+        description: "300W Floodlight 18000mAH, 12-15hrs charge, 160lm/w",
         image: "https://5.imimg.com/data5/SELLER/Default/2023/6/312934762/OR/LA/OX/12380270/300w-led-flood-light-500x500.jpg"
     },
     {
@@ -883,7 +883,7 @@ const products = [
         name: "Floodlight 100W",
         category: "Floodlights",
         price: 7500,
-        description: "100W Floodlight -0837B100-01-3000K/6000K",
+        description: "100W Floodlight 18AH, 12-15hrs charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-o8kNMRizpVxBXh2idRhgfOOO5LxFjrkL3g&s"
     },
     {
@@ -891,23 +891,23 @@ const products = [
         name: "Floodlight 200W",
         category: "Floodlights",
         price: 13000,
-        description: "200W Floodlight 0837E200-01",
-        image: "https://www.tronic.co.ke/cdn/shop/products/SL_3079-05-BK-DL_grande.jpg?v=1667805472"
+        description: "200W Floodlight 18AH, 30-36hrs charge, 160lm/w",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7koaTSV2FBuS3smVMNJGrtkLpx1VRkZ1sgQ&s"
     },
     {
         id: 114,
         name: "Floodlight 300W",
         category: "Floodlights",
         price: 15500,
-        description: "300W Floodlight 0837E300-01",
+        description: "300W Floodlight 96AH, 30-36hrs charge, 160lm/w",
         image: "https://www.damany.co.ke/wp-content/uploads/2022/12/0837E300-01.jpg"
     },
     {
         id: 115,
         name: "Floodlight 200W",
         category: "Floodlights",
-        price: 13000,
-        description: "200W Floodlight YW-200#-3000K/6000K",
+        price: 6500,
+        description: "200W Floodlight 18AH, 12-15hrs charge, 160lm/w",
         image: "https://m.media-amazon.com/images/I/61GEOGXixkL._AC_UF894,1000_QL80_.jpg"
     },
     {
@@ -915,7 +915,7 @@ const products = [
         name: "Floodlight 50W",
         category: "Floodlights",
         price: 3600,
-        description: "50W Floodlight -0860A50-01",
+        description: "50W Floodlight 12AH, 30-36hrs charge, 160lm/w",
         image: "https://pictures-kenya.jijistatic.com/47126270_NjIwLTYyMC0zMGUyZDIyNjI2.webp"
     },
     {
@@ -923,7 +923,7 @@ const products = [
         name: "Floodlight 100W",
         category: "Floodlights",
         price: 4500,
-        description: "100W Floodlight -0860B100-01",
+        description: "100W Floodlight 18AH, 30-36hrs charge, 160lm/w",
         image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
     },
     {
@@ -931,7 +931,7 @@ const products = [
         name: "Floodlight 150W",
         category: "Floodlights",
         price: 5200,
-        description: "150W Floodlight -0860C150-01",
+        description: "150W Floodlight 24AH, 30-36hrs charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZ4nwaEvx4aDj9NDhw-Zhvr7w4NHk3_doMg&s"
     }, 
     {
@@ -939,31 +939,31 @@ const products = [
         name: "Floodlight 100W",
         category: "Floodlights",
         price: 7400,
-        description: "100W Floodlight 0222A100-01",
-        image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
+        description: "100W Floodlight 12AH, Cloud and local storage",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDTXuYzk_O1SmcT_KUxtZD5IzQyRKVCnPPQ&s"
     },
     {
         id: 120,
         name: "Floodlight 200W",
         category: "Floodlights",
         price: 9800,
-        description: "200W Floodlight 0222B200-01",
-        image: "https://m.media-amazon.com/images/I/61u10vYySVL._SL1500_.jpg"
+        description: "200W Floodlight 24AH, Cloud and local storage",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDTXuYzk_O1SmcT_KUxtZD5IzQyRKVCnPPQ&s"
     },
     {
         id: 121,
         name: "Floodlight 400W",
         category: "Floodlights",
         price: 13000,
-        description: "400W Floodlight 0222D400-01",
-        image: "https://www.tronic.co.ke/cdn/shop/products/SL_3079-05-BK-DL_grande.jpg?v=1667805472"
+        description: "400W Floodlight 42AH, Cloud and local storage",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDTXuYzk_O1SmcT_KUxtZD5IzQyRKVCnPPQ&s"
     },
     {
         id: 122,
         name: "Floodlight 1000W",
         category: "Floodlights",
         price: 14000,
-        description: "1000W Floodlight 0293A1000-01",
+        description: "1000W Floodlight 52AH, 12-15hrs charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tQaxa4c2jvHbC2a_JK6TRMa-YVcF94ng-A&s"
     }, 
     {
@@ -971,7 +971,7 @@ const products = [
         name: "Floodlight 2000W",
         category: "Floodlights",
         price: 16500,
-        description: "2000W Floodlight 0293B2000-01",
+        description: "2000W Floodlight 58.5AH, 12-15hrs charge, 160lm/w",
         image: "https://www.yahualighting.com/uploads/202210151/small/30w-50w-70w-100w-150w-led-outdoor-flood-light23399813501.jpg?size=384x0"
     },
     {
@@ -979,7 +979,7 @@ const products = [
         name: "Floodlight 3000W",
         category: "Floodlights",
         price: 19000,
-        description: "3000W Floodlight 0293C3000-01",
+        description: "3000W Floodlight 65AH, 12-15hrs charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGI6MCdT0ko0L3b3mT5I2xvLyC4OpBXOCU3A&s"
     },
     {
@@ -987,7 +987,7 @@ const products = [
         name: "Floodlight 150W",
         category: "Floodlights",
         price: 6500,
-        description: "150W Floodlight 0358A150-01-6000",
+        description: "150W Floodlight 14AH, 2 rainy days charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZtjCdATs3bC7lx7OzCRds3HXS7XoeweEWw&s"
     }, 
 ];

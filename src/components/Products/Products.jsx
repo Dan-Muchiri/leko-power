@@ -51,7 +51,7 @@ const products = [
         category: "Batteries",
         price: 50000,
         description: "75AH/1920Wh, 24V",
-        image: "https://solarstore.co.ke/wp-content/uploads/2023/08/Megatank-5kWh-Lithium-Battery-in-kenya.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN2lCiIaY8xkYXefT78ZVRAMpWASATjvZebQ&s"
     },
     {
         id: 7,
@@ -59,7 +59,7 @@ const products = [
         category: "Batteries",
         price: 30000,
         description: "75AH/960Wh, 12V",
-        image: "https://solarstore.co.ke/wp-content/uploads/2023/08/Megatank-5kWh-Lithium-Battery-in-kenya.jpg"
+        image: "https://pictures-kenya.jijistatic.com/63468114_NjIwLTQ2NS0yYjMwY2M0ZjVl.webp"
     },
     {
         id: 8,
@@ -83,7 +83,7 @@ const products = [
         category: "Batteries",
         price: 13000,
         description: "55AH, 12V",
-        image: "https://www.tronik.co.ke/wp-content/uploads/2023/08/Ritar-12V-40Ah-Lead-Sealed-maintenance-free-battery-in-Kenya.jpg"
+        image: "https://i.roamcdn.net/hz/pi/listing-thumb-543w/cf7ab4ff1685d7963e293f0c1a0f11da/-/horizon-files-prod/pi/picture/q9m9m99j/978fdc81bf5265bd475e154547071db0b868f550.jpg"
     },
     {
         id: 11,
@@ -91,7 +91,7 @@ const products = [
         category: "Batteries",
         price: 16000,
         description: "80AH, 12V",
-        image: "https://www.tronik.co.ke/wp-content/uploads/2023/08/Ritar-12V-40Ah-Lead-Sealed-maintenance-free-battery-in-Kenya.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Jqb48b92w0em50jcUtxtaZH9Hz7qTv5HlQ&s"
     },
     {
         id: 12,
@@ -99,7 +99,7 @@ const products = [
         category: "Batteries",
         price: 20000,
         description: "100AH, 12V",
-        image: "https://www.tronik.co.ke/wp-content/uploads/2023/08/Ritar-12V-40Ah-Lead-Sealed-maintenance-free-battery-in-Kenya.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvXkti14FPNfObMP70QBQJfZ-0b9GYIK0c2w&s"
     },
     {
         id: 13,
@@ -107,7 +107,7 @@ const products = [
         category: "Batteries",
         price: 38000,
         description: "200AH, 12V",
-        image: "https://www.tronik.co.ke/wp-content/uploads/2023/08/Ritar-12V-40Ah-Lead-Sealed-maintenance-free-battery-in-Kenya.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQ31HJMwmRoisedinJGjo51TdznQnpsEZsQ&s"
     },
     {
         id: 14,
@@ -115,7 +115,7 @@ const products = [
         category: "Batteries",
         price: 48000,
         description: "260AH, 12V",
-        image: "https://www.tronik.co.ke/wp-content/uploads/2023/08/Ritar-12V-40Ah-Lead-Sealed-maintenance-free-battery-in-Kenya.jpg"
+        image: "https://www.sustainable.co.za/cdn/shop/products/ra-12-260d-800px.jpg?v=1634332675"
     },
     /// Hybrid Inverters
     {
@@ -139,7 +139,7 @@ const products = [
         name: "SRNE Hybrid Inverter",
         category: "Hybrid Inverters",
         price: 68000,
-        description: "5KVA, 48V, 100A, 500VDC (2 years warranty)",
+        description: "5KVA, 48V, 80A, 500VDC (2 years warranty)",
         image: "https://img.ctmon.com.cn/oss/sren/userfiles/images/2023/06/28/2023062811254588.png"
     },
     {
@@ -346,57 +346,41 @@ const products = [
         id: 43,
         name: "Solar Panels",
         category: "Solar Panels",
-        price: "28 BOB per watt",
-        description: "150W - 460W Solar Panels",
+        price: 28,
+        description: "150W - 460W Solar Panels. 28 BOB per watt",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLNpfuyJMIIbiQdg7QS2ABfuHV6FoECLTLjw&s"
     },
     {
-        id: 44,
-        name: "Floodlight 25W",
-        category: "Floodlights",
-        price: 3000,
-        description: "25W Floodlight",
-        image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/414136/1.jpg?0710"
-    },
-    {
-        id: 45,
-        name: "Floodlight 40W",
-        category: "Floodlights",
-        price: 3500,
-        description: "40W Floodlight",
-        image: "https://5.imimg.com/data5/SELLER/Default/2021/1/XE/VL/LE/13100888/25w-solar-flood-light-500x500.jpg"
-    },
-    {
         id: 46,
-        name: "Floodlight 60W",
+        name: "Floodlight 50W",
         category: "Floodlights",
-        price: 4500,
-        description: "60W Floodlight",
+        price: 2600,
+        description: "50W Floodlight 0427A50-02",
         image: "https://5.imimg.com/data5/SELLER/Default/2021/1/XE/VL/LE/13100888/25w-solar-flood-light-500x500.jpg"
     },
     {
         id: 47,
         name: "Floodlight 100W",
         category: "Floodlights",
-        price: 5500,
-        description: "100W Floodlight",
-        image: "https://5.imimg.com/data5/SELLER/Default/2021/1/XE/VL/LE/13100888/25w-solar-flood-light-500x500.jpg"
+        price: 3000,
+        description: "100W Floodlight 0427B100-02",
+        image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
     },
     {
         id: 48,
         name: "Floodlight 200W",
         category: "Floodlights",
-        price: 7000,
-        description: "200W Floodlight",
-        image: "https://5.imimg.com/data5/SELLER/Default/2021/1/XE/VL/LE/13100888/25w-solar-flood-light-500x500.jpg"
+        price: 4000,
+        description: "200W Floodlight 0427D200-02",
+        image: "https://m.media-amazon.com/images/I/61u10vYySVL._SL1500_.jpg"
     },
     {
         id: 49,
         name: "Floodlight 300W",
         category: "Floodlights",
-        price: 9000,
-        description: "300W Floodlight",
-        image: "https://5.imimg.com/data5/SELLER/Default/2021/1/XE/VL/LE/13100888/25w-solar-flood-light-500x500.jpg"
+        price: 4800,
+        description: "300W Floodlight 0427D300-02",
+        image: "https://5.imimg.com/data5/SELLER/Default/2023/6/312934762/OR/LA/OX/12380270/300w-led-flood-light-500x500.jpg"
     },
     {
         id: 50,
@@ -404,7 +388,7 @@ const products = [
         category: "Streetlights",
         price: 7000,
         description: "60W Streetlight",
-        image: "https://5.imimg.com/data5/SELLER/Default/2021/1/XE/VL/LE/13100888/25w-solar-flood-light-500x500.jpg"
+        image: "https://www.tronic.co.ke/cdn/shop/products/EST-SL27-10-DL.jpg?v=1678690898"
     },
     {
         id: 51,
@@ -893,7 +877,119 @@ const products = [
         price: 200,
         description: "Earthing Lug for Solar Panel Systems",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7zbPA065mD02v4gIqXzyTpfrrQ0iQIlm5UQ&s"
-    }  
+    },
+    {
+        id: 112,
+        name: "Floodlight 100W",
+        category: "Floodlights",
+        price: 7500,
+        description: "100W Floodlight -0837B100-01-3000K/6000K",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-o8kNMRizpVxBXh2idRhgfOOO5LxFjrkL3g&s"
+    },
+    {
+        id: 113,
+        name: "Floodlight 200W",
+        category: "Floodlights",
+        price: 13000,
+        description: "200W Floodlight 0837E200-01",
+        image: "https://www.tronic.co.ke/cdn/shop/products/SL_3079-05-BK-DL_grande.jpg?v=1667805472"
+    },
+    {
+        id: 114,
+        name: "Floodlight 300W",
+        category: "Floodlights",
+        price: 15500,
+        description: "300W Floodlight 0837E300-01",
+        image: "https://www.damany.co.ke/wp-content/uploads/2022/12/0837E300-01.jpg"
+    },
+    {
+        id: 115,
+        name: "Floodlight 200W",
+        category: "Floodlights",
+        price: 13000,
+        description: "200W Floodlight YW-200#-3000K/6000K",
+        image: "https://m.media-amazon.com/images/I/61GEOGXixkL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        id: 116,
+        name: "Floodlight 50W",
+        category: "Floodlights",
+        price: 3600,
+        description: "50W Floodlight -0860A50-01",
+        image: "https://pictures-kenya.jijistatic.com/47126270_NjIwLTYyMC0zMGUyZDIyNjI2.webp"
+    },
+    {
+        id: 117,
+        name: "Floodlight 100W",
+        category: "Floodlights",
+        price: 4500,
+        description: "100W Floodlight -0860B100-01",
+        image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
+    },
+    {
+        id: 118,
+        name: "Floodlight 150W",
+        category: "Floodlights",
+        price: 5200,
+        description: "150W Floodlight -0860C150-01",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZ4nwaEvx4aDj9NDhw-Zhvr7w4NHk3_doMg&s"
+    }, 
+    {
+        id: 119,
+        name: "Floodlight 100W",
+        category: "Floodlights",
+        price: 7400,
+        description: "100W Floodlight 0222A100-01",
+        image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
+    },
+    {
+        id: 120,
+        name: "Floodlight 200W",
+        category: "Floodlights",
+        price: 9800,
+        description: "200W Floodlight 0222B200-01",
+        image: "https://m.media-amazon.com/images/I/61u10vYySVL._SL1500_.jpg"
+    },
+    {
+        id: 121,
+        name: "Floodlight 400W",
+        category: "Floodlights",
+        price: 13000,
+        description: "400W Floodlight 0222D400-01",
+        image: "https://www.tronic.co.ke/cdn/shop/products/SL_3079-05-BK-DL_grande.jpg?v=1667805472"
+    },
+    {
+        id: 122,
+        name: "Floodlight 1000W",
+        category: "Floodlights",
+        price: 14000,
+        description: "1000W Floodlight 0293A1000-01",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tQaxa4c2jvHbC2a_JK6TRMa-YVcF94ng-A&s"
+    }, 
+    {
+        id: 123,
+        name: "Floodlight 2000W",
+        category: "Floodlights",
+        price: 16500,
+        description: "2000W Floodlight 0293B2000-01",
+        image: "https://www.yahualighting.com/uploads/202210151/small/30w-50w-70w-100w-150w-led-outdoor-flood-light23399813501.jpg?size=384x0"
+    },
+    {
+        id: 124,
+        name: "Floodlight 3000W",
+        category: "Floodlights",
+        price: 19000,
+        description: "3000W Floodlight 0293C3000-01",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGI6MCdT0ko0L3b3mT5I2xvLyC4OpBXOCU3A&s"
+    },
+    {
+        id: 125,
+        name: "Floodlight 150W",
+        category: "Floodlights",
+        price: 6500,
+        description: "150W Floodlight 0358A150-01-6000",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZtjCdATs3bC7lx7OzCRds3HXS7XoeweEWw&s"
+    }, 
 ];
 
 const categories = [

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './HomeStyles.module.css';
-import solarImage from '../../assets/solar-8656654_1280.webp'; // Path to your image
+import solarImage from '../../assets/Untitled design.png'; // Path to your image
 
 function Home() {
     useEffect(() => {

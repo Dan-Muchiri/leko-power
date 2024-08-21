@@ -1,6 +1,6 @@
 /* Header Container */
 .header {
-    height: 60px;
+    height: 90px;
     color: var(--primary-dark-green); /* Dark Green text */
     display: flex;
     justify-content: space-between;
@@ -16,11 +16,19 @@
 
 /* Logo Style */
 .logo {
-    font-family: "Satisfy", cursive;
-    font-size: 30px; /* Larger font size for prominence */
-    font-weight: bold;
-    color: var(--primary-dark-green); /* Dark Green text color */
-    letter-spacing: 1px; /* Slightly spaced letters */
+    display: flex;
+    align-items: center;
+    height: 100%; /* Ensure logo stays within header */
+}
+
+/* Logo Image Style */
+.logoImage {
+    width: 130px; /* Set a default width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure logo doesn't exceed container size */
+    object-fit: contain; /* Make sure the image fits within its container */
+    padding: 5px 0; /* Adjust padding */
+    border-radius: 40px;
 }
 
 /* Menu Icon (Hamburger) */
@@ -101,6 +109,13 @@
         color: var(--primary-light-green); /* Keep hover effect */
         border-bottom: none; /* Remove underline effect on small screens */
     }
+    .logoImage {
+        width: 100px; /* Reduce width for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 20px; /* Reduce border radius for smaller screens */
+    }
+
+    
 }
 
 @media (max-width: 480px) {
@@ -110,5 +125,11 @@
 
     .nav a {
         font-size: 12px; /* Smaller font size for links */
+    }
+
+    .logoImage {
+        width: 80px; /* Further reduce width for very small screens */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 15px; /* Reduce border radius even further */
     }
 }

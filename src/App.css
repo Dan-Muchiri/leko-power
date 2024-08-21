@@ -23,7 +23,7 @@ body {
 
 /* Add padding-top to account for the height of the fixed header */
 .main-content {
-  padding-top: 60px; /* Adjust this value based on the height of your header */
+  padding-top: 90px; /* Adjust this value based on the height of your header */
 }
 
 
@@ -63,4 +63,10 @@ a:hover {
 
 .mb-20 {
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 70px; /* Adjust this value based on the height of your header */
+  }
 }

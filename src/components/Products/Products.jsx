@@ -1170,7 +1170,7 @@ const categories = [
 
 
 // WhatsApp number for contact
-const whatsappNumber = '+254708005538'; // Replace with your WhatsApp number
+const whatsappNumber = '+254740491306'; // Replace with your WhatsApp number
 
 function Products() {
     useEffect(() => {

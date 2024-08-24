@@ -11,9 +11,9 @@ function Footer() {
                     <div className={styles.contactInfo}>
                         <h4>Contact Us</h4>
                         <p>Email: <a href="mailto:lekopowerenergy@gmail.com" className={styles.emailLink}>lekopowerenergy@gmail.com</a></p>
-                        <p>Phone: +254 708 005 538</p>
+                        <p>Phone: +254740491306</p>
                         <p>
-                            <a href="https://wa.me/254708005538" target="_blank" rel="noopener noreferrer" className={styles.whatsappLink}>
+                            <a href="https://wa.me/254740491306" target="_blank" rel="noopener noreferrer" className={styles.whatsappLink}>
                                 <FontAwesomeIcon icon={faWhatsapp} className={styles.whatsappIcon} />
                                 Chat with us on WhatsApp
                             </a>

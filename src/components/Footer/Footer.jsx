@@ -22,8 +22,7 @@ function Footer() {
                     <div className={styles.address}>
                         <h4>Our Address</h4>
                         <p>Physical Location:</p>
-                        <p>Pensortium Place, 1st Floor</p>
-                        <p>Ol Pogoni Road (Off Mumias Road)</p>
+                        <p>Katani</p>
                         <p>P.O. Box: 25140-00100</p>
                         <p>GPO, Nairobi, Kenya</p>
                     </div>

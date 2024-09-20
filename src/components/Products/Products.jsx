@@ -8,7 +8,7 @@ const products = [
         id: 126,
         name: "50W Solar LED Street Light",
         category: "Streetlights",
-        price: 2350,
+        price: 2600,
         description: "50W Solar LED Street Light 5AH, 12-15 hours, 160lm/w",
         image: "https://vohsuppliers.co.ke/wp-content/uploads/2024/07/1-47-1.jpg"
       },
@@ -16,7 +16,7 @@ const products = [
         id: 127,
         name: "100W Solar LED Street Light",
         category: "Streetlights",
-        price: 2600,
+        price: 2800,
         description: "100W Solar LED Street Light 6AH, 12-15 hours, 160lm/w",
         image: "https://vohsuppliers.co.ke/wp-content/uploads/2024/07/1-47-1.jpg"
       },
@@ -24,7 +24,7 @@ const products = [
         id: 128,
         name: "200W Solar LED Street Light",
         category: "Streetlights",
-        price: 3400,
+        price: 3600,
         description: "200W Solar LED Street Light 12AH, 12-15 hours, 160lm/w",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-12-at-15.03.44.jpeg"
       },
@@ -32,7 +32,7 @@ const products = [
         id: 129,
         name: "300W Solar LED Street Light",
         category: "Streetlights",
-        price: 4000,
+        price: 4200,
         description: "300W Solar LED Street Light 18AH, 12-15 hours, 160lm/w",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-12-at-16.38.08.jpeg"
       },
@@ -40,7 +40,7 @@ const products = [
         id: 130,
         name: "50W Solar LED Street Light",
         category: "Streetlights",
-        price: 2450,
+        price: 3000,
         description: "50W Solar LED Street Light 5AH, 12-15 hours, 160lm/w",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-20-at-14.39.56.jpeg"
       },
@@ -48,7 +48,7 @@ const products = [
         id: 131,
         name: "100W Solar LED Street Light",
         category: "Streetlights",
-        price: 2650,
+        price: 3400,
         description: "100W Solar LED Street Light 6AH, 12-15 hours, 160lm/w",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-20-at-14.39.56.jpeg"
       },
@@ -56,7 +56,7 @@ const products = [
         id: 132,
         name: "200W Solar LED Street Light",
         category: "Streetlights",
-        price: 3600,
+        price: 4600,
         description: "200W Solar LED Street Light 12AH, 12-15 hours, 160lm/w",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-12-at-15.03.44.jpeg"
       },
@@ -64,7 +64,7 @@ const products = [
         id: 133,
         name: "300W Solar LED Street Light",
         category: "Streetlights",
-        price: 4500,
+        price: 5300,
         description: "300W Solar LED Street Light 18AH, 12-15 hours, 160lm/w",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-12-at-16.38.08.jpeg"
       },
@@ -72,7 +72,7 @@ const products = [
         id: 134,
         name: "1000W Solar LED Street Light",
         category: "Streetlights",
-        price: 4400,
+        price: 4800,
         description: "1000W, 12-15 hours, ABS",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWiJI_v1z8Gyy9cisRw_CWVhlc7zJeb3O0Dg&s"
       },
@@ -80,7 +80,7 @@ const products = [
         id: 135,
         name: "2000W Solar LED Street Light",
         category: "Streetlights",
-        price: 5200,
+        price: 5500,
         description: "2000W, 12-15 hours, ABS",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-12-at-16.38.08.jpeg"
       },
@@ -88,7 +88,7 @@ const products = [
         id: 116,
         name: "Floodlight 50W",
         category: "Floodlights",
-        price: 3600,
+        price: 4200,
         description: "50W Floodlight 12AH, 30-36hrs charge, 160lm/w",
         image: "https://pictures-kenya.jijistatic.com/47126270_NjIwLTYyMC0zMGUyZDIyNjI2.webp"
     },
@@ -96,7 +96,7 @@ const products = [
         id: 117,
         name: "Floodlight 100W",
         category: "Floodlights",
-        price: 4500,
+        price: 5000,
         description: "100W Floodlight 18AH, 30-36hrs charge, 160lm/w",
         image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
     },
@@ -104,7 +104,7 @@ const products = [
         id: 112,
         name: "Floodlight 100W",
         category: "Floodlights",
-        price: 7500,
+        price: 9000,
         description: "100W Floodlight 18AH, 12-15hrs charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-o8kNMRizpVxBXh2idRhgfOOO5LxFjrkL3g&s"
     },
@@ -112,7 +112,7 @@ const products = [
         id: 113,
         name: "Floodlight 200W",
         category: "Floodlights",
-        price: 13000,
+        price: 15000,
         description: "200W Floodlight 18AH, 30-36hrs charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7koaTSV2FBuS3smVMNJGrtkLpx1VRkZ1sgQ&s"
     },
@@ -120,7 +120,7 @@ const products = [
         id: 114,
         name: "Floodlight 300W",
         category: "Floodlights",
-        price: 15500,
+        price: 18000,
         description: "300W Floodlight 96AH, 30-36hrs charge, 160lm/w",
         image: "https://www.damany.co.ke/wp-content/uploads/2022/12/0837E300-01.jpg"
     },
@@ -128,7 +128,7 @@ const products = [
         id: 115,
         name: "Floodlight 200W",
         category: "Floodlights",
-        price: 6500,
+        price: 7800,
         description: "200W Floodlight 18AH, 12-15hrs charge, 160lm/w",
         image: "https://m.media-amazon.com/images/I/61GEOGXixkL._AC_UF894,1000_QL80_.jpg"
     },
@@ -145,7 +145,7 @@ const products = [
         id: 119,
         name: "Floodlight 100W",
         category: "Floodlights",
-        price: 7400,
+        price: 8000,
         description: "100W Floodlight 12AH, Cloud and local storage",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDTXuYzk_O1SmcT_KUxtZD5IzQyRKVCnPPQ&s"
     },
@@ -153,7 +153,7 @@ const products = [
         id: 120,
         name: "Floodlight 200W",
         category: "Floodlights",
-        price: 9800,
+        price: 10300,
         description: "200W Floodlight 24AH, Cloud and local storage",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDTXuYzk_O1SmcT_KUxtZD5IzQyRKVCnPPQ&s"
     },
@@ -161,7 +161,7 @@ const products = [
         id: 121,
         name: "Floodlight 400W",
         category: "Floodlights",
-        price: 13000,
+        price: 13800,
         description: "400W Floodlight 42AH, Cloud and local storage",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDTXuYzk_O1SmcT_KUxtZD5IzQyRKVCnPPQ&s"
     },
@@ -185,7 +185,7 @@ const products = [
         id: 124,
         name: "Floodlight 3000W",
         category: "Floodlights",
-        price: 19000,
+        price: 19800,
         description: "3000W Floodlight 65AH, 12-15hrs charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGI6MCdT0ko0L3b3mT5I2xvLyC4OpBXOCU3A&s"
     },
@@ -193,7 +193,7 @@ const products = [
         id: 125,
         name: "Floodlight 150W",
         category: "Floodlights",
-        price: 6500,
+        price: 7200,
         description: "150W Floodlight 14AH, 2 rainy days charge, 160lm/w",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZtjCdATs3bC7lx7OzCRds3HXS7XoeweEWw&s"
     }, 
@@ -202,7 +202,7 @@ const products = [
         id: 136,
         name: "3000W Solar LED Street Light",
         category: "Streetlights",
-        price: 6000,
+        price: 6500,
         description: "3000W, 12-15 hours, ABS",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-12-at-16.38.08.jpeg"
       },
@@ -210,7 +210,7 @@ const products = [
         id: 137,
         name: "1000W Solar LED Street Light",
         category: "Streetlights",
-        price: 5500,
+        price: 6100,
         description: "1000W, 12-15 hours, ABS",
         image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/90/0080881/1.jpg?6973"
       },
@@ -218,7 +218,7 @@ const products = [
         id: 138,
         name: "2000W Solar LED Street Light",
         category: "Streetlights",
-        price: 7000,
+        price: 7500,
         description: "2000W, 12-15 hours, ABS",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-24-at-11.35.58-1.jpeg"
       },
@@ -226,7 +226,7 @@ const products = [
         id: 139,
         name: "60W Solar LED Street Light",
         category: "Streetlights",
-        price: 12500,
+        price: 14500,
         description: "60W, 30-36 hours, Aluminum",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-20-at-14.39.56.jpeg"
       },
@@ -234,7 +234,7 @@ const products = [
         id: 140,
         name: "90W Solar LED Street Light",
         category: "Streetlights",
-        price: 15500,
+        price: 18500,
         description: "90W, 30-36 hours, Aluminum",
         image: "https://atwinengineering.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-20-at-14.39.56.jpeg"
       },
@@ -242,7 +242,7 @@ const products = [
         id: 141,
         name: "120W Solar LED Street Light",
         category: "Streetlights",
-        price: 19000,
+        price: 22000,
         description: "120W, 30-36 hours, Aluminum",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWiJI_v1z8Gyy9cisRw_CWVhlc7zJeb3O0Dg&s"
       },
@@ -250,7 +250,7 @@ const products = [
         id: 142,
         name: "150W Solar LED Street Light",
         category: "Streetlights",
-        price: 21000,
+        price: 25000,
         description: "150W, 30-36 hours, Aluminum",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAzPTPXuFW4a_So6q1pbCngWqqCnTZA9VE0g&s"
       },
@@ -258,7 +258,7 @@ const products = [
         id: 143,
         name: "60W Solar LED Street Light",
         category: "Streetlights",
-        price: 4800,
+        price: 5200,
         description: "60W, 30-36 hours, ABS",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5bRyUQ1WTfEHswF328EoqyzB8McEBlW4ltg&s"
       },
@@ -266,7 +266,7 @@ const products = [
         id: 144,
         name: "90W Solar LED Street Light",
         category: "Streetlights",
-        price: 6000,
+        price: 6500,
         description: "90W, 30-36 hours, ABS",
         image: "https://evertop.co.ke/wp-content/uploads/2022/04/Solar-street-light-with-PIR-motion-and-night-Sensor-90w-11-300x300-1.jpeg"
       },
@@ -274,7 +274,7 @@ const products = [
         id: 145,
         name: "120W Solar LED Street Light",
         category: "Streetlights",
-        price: 7800,
+        price: 8300,
         description: "120W, 30-36 hours, ABS",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWiJI_v1z8Gyy9cisRw_CWVhlc7zJeb3O0Dg&s"
       },
@@ -282,7 +282,7 @@ const products = [
         id: 146,
         name: "200W Solar LED Street Light",
         category: "Streetlights",
-        price: 9000,
+        price: 9500,
         description: "200W, 2 rainy days, Aluminum",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XipljcS4A2mUYQT1p4XTcZkEfvIPTipKsw&s"
       },
@@ -290,7 +290,7 @@ const products = [
         id: 147,
         name: "150W Solar LED Street Light",
         category: "Streetlights",
-        price: 30000,
+        price: 34800,
         description: "150W, 30-36 hours, Aluminum",
         image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/414136/1.jpg?0709"
       },
@@ -298,7 +298,7 @@ const products = [
         id: 148,
         name: "150W Solar LED Street Light",
         category: "Streetlights",
-        price: 25000,
+        price: 29500,
         description: "150W, 30-36 hours, Aluminum",
         image: "https://image.made-in-china.com/202f0j00uSFWaKtwljpN/Aluminum-Housing-Dimmable-Remote-Control-IP65-50-100-150-Watt-Solar-LED-Street-Light.webp"
       },

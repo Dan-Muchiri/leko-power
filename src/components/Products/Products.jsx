@@ -5,6 +5,39 @@ import styles from './ProductsStyles.module.css';
 // Comprehensive product data
 const products = [
     {
+        id: 46,
+        name: "Floodlight 50W",
+        category: "Floodlights",
+        price: 3100,
+        description: "50W Floodlight 4500mH, 10-15hrs charge, 160lm/w",
+        image: "https://macire.co.ke/wp-content/uploads/2024/03/16847172316667.jpg"
+
+    },
+    {
+        id: 47,
+        name: "Floodlight 100W",
+        category: "Floodlights",
+        price: 3900,
+        description: "100W Floodlight 6000mAH, 10-15hrs charge, 160lm/w",
+        image: "https://i0.wp.com/colcalmachinery.co.ke/wp-content/uploads/2024/06/16847172316667.jpg"
+    },
+    {
+        id: 48,
+        name: "Floodlight 200W",
+        category: "Floodlights",
+        price: 5100,
+        description: "200W Floodlight 12000mAH, 10-15hrs charge, 160lm/w",
+        image: "https://macire.co.ke/wp-content/uploads/2024/03/16847172316667.jpg"
+    },
+    {
+        id: 49,
+        name: "Floodlight 300W",
+        category: "Floodlights",
+        price: 5800,
+        description: "300W Floodlight 18000mAH, 12-15hrs charge, 160lm/w",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPpb0zwgbV4Mhzo0tQNVFlzEWg8MNFCUmw_eDSYhwnMWH588XviF0OD52LoxhAXJEo_s&usqp=CAU"
+    },
+    {
         id: 126,
         name: "50W Solar LED Street Light",
         category: "Streetlights",
@@ -98,7 +131,7 @@ const products = [
         category: "Floodlights",
         price: 4700,
         description: "50W Floodlight 12AH, 30-36hrs charge, 160lm/w",
-        image: "https://pictures-kenya.jijistatic.com/47126270_NjIwLTYyMC0zMGUyZDIyNjI2.webp"
+        image: "https://advanceenergysavers.co.ke/wp-content/uploads/2023/10/solar-floodlight-13.png"
     },
     {
         id: 117,
@@ -106,7 +139,7 @@ const products = [
         category: "Floodlights",
         price: 5500,
         description: "100W Floodlight 18AH, 30-36hrs charge, 160lm/w",
-        image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9GEot_XUl_s2gaWlxpLb7FlEayrEjGm6vQ3GeNniYuA161o-v7CgsL7NKij23sgMariw&usqp=CAU"
     },
     {
         id: 112,
@@ -114,7 +147,7 @@ const products = [
         category: "Floodlights",
         price: 9500,
         description: "100W Floodlight 18AH, 12-15hrs charge, 160lm/w",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-o8kNMRizpVxBXh2idRhgfOOO5LxFjrkL3g&s"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtgJcySS2IC_2llYb_v2Wsvo__XcSHJB50eA&s"
     },
     {
         id: 113,
@@ -130,7 +163,7 @@ const products = [
         category: "Floodlights",
         price: 18500,
         description: "300W Floodlight 96AH, 30-36hrs charge, 160lm/w",
-        image: "https://www.damany.co.ke/wp-content/uploads/2022/12/0837E300-01.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjTrN4PJaf8axwOpQ5c5TJMqCXLtHClEVj-w&s"
     },
     {
         id: 115,
@@ -138,16 +171,16 @@ const products = [
         category: "Floodlights",
         price: 8300,
         description: "200W Floodlight 18AH, 12-15hrs charge, 160lm/w",
-        image: "https://m.media-amazon.com/images/I/61GEOGXixkL._AC_UF894,1000_QL80_.jpg"
+        image: "https://solarshop.co.ke/wp-content/uploads/2024/03/solar-flood-light-1.png"
     },
     
     {
         id: 118,
         name: "Floodlight 150W",
         category: "Floodlights",
-        price: 5700,
+        price: 6500,
         description: "150W Floodlight 24AH, 30-36hrs charge, 160lm/w",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZ4nwaEvx4aDj9NDhw-Zhvr7w4NHk3_doMg&s"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQNkXNBYU10c_zjDva_N5ECX8OMDiqXrdLnA&s"
     }, 
     {
         id: 119,
@@ -174,22 +207,6 @@ const products = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDTXuYzk_O1SmcT_KUxtZD5IzQyRKVCnPPQ&s"
     },
     {
-        id: 122,
-        name: "Floodlight 1000W",
-        category: "Floodlights",
-        price: 14500,
-        description: "1000W Floodlight 52AH, 12-15hrs charge, 160lm/w",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tQaxa4c2jvHbC2a_JK6TRMa-YVcF94ng-A&s"
-    }, 
-    {
-        id: 123,
-        name: "Floodlight 2000W",
-        category: "Floodlights",
-        price: 17000,
-        description: "2000W Floodlight 58.5AH, 12-15hrs charge, 160lm/w",
-        image: "https://www.yahualighting.com/uploads/202210151/small/30w-50w-70w-100w-150w-led-outdoor-flood-light23399813501.jpg?size=384x0"
-    },
-    {
         id: 124,
         name: "Floodlight 3000W",
         category: "Floodlights",
@@ -203,7 +220,7 @@ const products = [
         category: "Floodlights",
         price: 7700,
         description: "150W Floodlight 14AH, 2 rainy days charge, 160lm/w",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZtjCdATs3bC7lx7OzCRds3HXS7XoeweEWw&s"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8FCPisss32jh29Brcd4P3GXwoQT_Y9ISxpeRWdHfAaplnJTNd_AVNbewIDgEEJpJXsx4&usqp=CAU"
     }, 
     
       {
@@ -704,38 +721,7 @@ const products = [
         description: "150W - 460W Solar Panels. 28 BOB per watt",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLNpfuyJMIIbiQdg7QS2ABfuHV6FoECLTLjw&s"
     },
-    {
-        id: 46,
-        name: "Floodlight 50W",
-        category: "Floodlights",
-        price: 3100,
-        description: "50W Floodlight 4500mH, 10-15hrs charge, 160lm/w",
-        image: "https://5.imimg.com/data5/SELLER/Default/2021/1/XE/VL/LE/13100888/25w-solar-flood-light-500x500.jpg"
-    },
-    {
-        id: 47,
-        name: "Floodlight 100W",
-        category: "Floodlights",
-        price: 3500,
-        description: "100W Floodlight 6000mAH, 10-15hrs charge, 160lm/w",
-        image: "https://pictures-kenya.jijistatic.com/2017246_100w-led-flood-light-1_500x500.jpg"
-    },
-    {
-        id: 48,
-        name: "Floodlight 200W",
-        category: "Floodlights",
-        price: 4500,
-        description: "200W Floodlight 12000mAH, 10-15hrs charge, 160lm/w",
-        image: "https://m.media-amazon.com/images/I/61u10vYySVL._SL1500_.jpg"
-    },
-    {
-        id: 49,
-        name: "Floodlight 300W",
-        category: "Floodlights",
-        price: 5300,
-        description: "300W Floodlight 18000mAH, 12-15hrs charge, 160lm/w",
-        image: "https://5.imimg.com/data5/SELLER/Default/2023/6/312934762/OR/LA/OX/12380270/300w-led-flood-light-500x500.jpg"
-    },
+    
     {
         id: 54,
         name: "Self-Priming Pump 125W, 0.17HP",

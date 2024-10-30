@@ -312,7 +312,7 @@ const products = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe8Fjy8KmqAIvFAMnFH93-fnHMinyyqbQqxg&s"
       },
       {
-        id: 145,
+        id: 1000,
         name: "120W Solar LED Street Light",
         category: "Streetlights",
         price: 8800,
@@ -328,7 +328,7 @@ const products = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWiJI_v1z8Gyy9cisRw_CWVhlc7zJeb3O0Dg&s"
       },
       {
-        id: 146,
+        id: 1001,
         name: "200W Solar LED Street Light",
         category: "Streetlights",
         price: 10000,

@@ -26,7 +26,7 @@ function Projects() {
                         <div className={styles.item}>
                             <div className={styles.projectCard}>
                                 <div className={styles.projectImage}>
-                                    <img className={styles.pImage} src={dribble} alt="Project Image"/>
+                                    <img className={styles.pImage} loading="lazy" src={dribble} alt="Project Image"/>
                                 </div>
                                 <div className={styles.cardDetails}>
                                 <div className={styles.workInfoMain}>
@@ -45,7 +45,7 @@ function Projects() {
                         <div className={styles.item2}>
                             <div className={styles.projectCard}>
                                 <div className={styles.projectImage}>
-                                    <img className={styles.pImage} src={project2} alt="Project Image"/>
+                                    <img className={styles.pImage} src={project2} loading="lazy" alt="Project Image"/>
                                 </div>
                                 <div className={styles.cardDetails}>
                                 <div className={styles.workTitle}>
@@ -61,7 +61,7 @@ function Projects() {
                         <div className={styles.item3}>
                             <div className={styles.projectCard}>
                                 <div className={styles.projectImage}>
-                                    <img className={styles.pImage} src={sylvestre} alt="Project Image"/>
+                                    <img className={styles.pImage} src={sylvestre} loading="lazy" alt="Project Image"/>
                                 </div>
                                 <div className={styles.cardDetails}>
                                 <div className={styles.workInfoMain}>
@@ -80,7 +80,7 @@ function Projects() {
                         <div className={styles.item4}>
                             <div className={styles.projectCard}>
                                 <div className={styles.projectImage}>
-                                    <img className={styles.pImage} src={shepherd} alt="Project Image"/>
+                                    <img className={styles.pImage} src={shepherd} loading="lazy" alt="Project Image"/>
                                 </div>
                                 <div className={styles.cardDetails}>
                                 <div className={styles.workInfoMain}>
@@ -99,7 +99,7 @@ function Projects() {
                         <div className={styles.item5}>
                             <div className={styles.projectCard}>
                                 <div className={styles.projectImage}>
-                                    <img className={styles.pImage} src={asset} alt="Project Image"/>
+                                    <img className={styles.pImage} src={asset} loading="lazy" alt="Project Image"/>
                                 </div>
                                 <div className={styles.cardDetails}>
                                 <div className={styles.workInfoMain}>
@@ -117,7 +117,7 @@ function Projects() {
                         <div className={styles.item6}>
                             <div className={styles.projectCard}>
                                 <div className={styles.projectImage}>
-                                    <img className={styles.pImage} src={ready} alt="Project Image"/>
+                                    <img className={styles.pImage} src={ready} loading="lazy" alt="Project Image"/>
                                 </div>
                                 <div className={styles.cardDetails}>
                                 <div className={styles.workInfoMain}>

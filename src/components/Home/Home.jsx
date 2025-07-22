@@ -7,6 +7,7 @@ import costSavingIcon from '../../assets/costSaving.png'; // Icon for cost-savin
 import reliableIcon from '../../assets/reliableIcon.png'; // Icon for reliability
 import Projects from '../Projects/Projects';
 
+
 function Home() {
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to top of the page
@@ -65,7 +66,7 @@ function Home() {
                 </div>
             </div>
 
-            <Projects/>
+            <Projects id='work'/>
         </section>
     );
 }

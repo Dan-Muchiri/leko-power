@@ -19,7 +19,7 @@ const products = [
         category: "Floodlights",
         price: 3900,
         description: "100W Floodlight 6000mAH, 10-15hrs charge, 160lm/w",
-        image: "https://i0.wp.com/colcalmachinery.co.ke/wp-content/uploads/2024/06/16847172316667.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9GEot_XUl_s2gaWlxpLb7FlEayrEjGm6vQ3GeNniYuA161o-v7CgsL7NKij23sgMariw&usqp=CAU"
     },
     {
         id: 48,
@@ -131,7 +131,7 @@ const products = [
         category: "Floodlights",
         price: 4700,
         description: "50W Floodlight 12AH, 30-36hrs charge, 160lm/w",
-        image: "https://advanceenergysavers.co.ke/wp-content/uploads/2023/10/solar-floodlight-13.png"
+        image: "https://macire.co.ke/wp-content/uploads/2024/03/16847172316667.jpg"
     },
     {
         id: 117,
@@ -864,7 +864,7 @@ const products = [
         category: "Solar Accessories",
         price: 180,
         description: "4mm PV Cable",
-        image: "https://ecodeshpowersolutions.co.ke/wp-content/uploads/2021/03/Ecodesh-Product-5.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1DzcAZv1xdw_E19I64FMrBeEHxCfT8zcR9Q&s"
     },
     {
         id: 72,
@@ -872,7 +872,7 @@ const products = [
         category: "Solar Accessories",
         price: 200,
         description: "6mm PV Cable",
-        image: "https://ecodeshpowersolutions.co.ke/wp-content/uploads/2021/03/Ecodesh-Product-5.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1DzcAZv1xdw_E19I64FMrBeEHxCfT8zcR9Q&s"
     },
     {
         id: 73,
@@ -880,7 +880,7 @@ const products = [
         category: "Solar Accessories",
         price: 350,
         description: "10mm PV Cable",
-        image: "https://ecodeshpowersolutions.co.ke/wp-content/uploads/2021/03/Ecodesh-Product-5.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1DzcAZv1xdw_E19I64FMrBeEHxCfT8zcR9Q&s"
     },
     {
         id: 74,
@@ -912,7 +912,7 @@ const products = [
         category: "Solar Accessories",
         price: 2500,
         description: "DC Breaker 20A, 32A, 63A, 550VDC, 2 Pole",
-        image: "https://solarshop.co.ke/wp-content/uploads/2024/03/Suntree-Solar-DC-MCB-63A-2Pole.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCODCpTdmJE7Sqw6pBNY7-SM-YYKOtaikpOQ&s"
     },
     {
         id: 78,
@@ -920,7 +920,7 @@ const products = [
         category: "Solar Accessories",
         price: 4500,
         description: "DC Breaker 20A, 32A, 63A, 1000VDC, 4 Pole",
-        image: "https://solarshop.co.ke/wp-content/uploads/2024/03/Suntree-Solar-DC-MCB-63A-2Pole.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCODCpTdmJE7Sqw6pBNY7-SM-YYKOtaikpOQ&s"
     },
     {
         id: 79,
@@ -928,7 +928,7 @@ const products = [
         category: "Solar Accessories",
         price: 10000,
         description: "DC MCCB, 100A, 160A, 200A, 250A, 2 Pole, 1000VDC",
-        image: "https://solarshop.co.ke/wp-content/uploads/2024/03/Suntree-Solar-DC-MCB-63A-2Pole.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCODCpTdmJE7Sqw6pBNY7-SM-YYKOtaikpOQ&s"
     },
     {
         id: 80,
@@ -1120,7 +1120,7 @@ const products = [
         category: "Mounting Structures",
         price: 250,
         description: "35mm Mid Clamp for Solar Panels",
-        image: "https://voltaconsolar.com/cdn/shop/products/middle-clamp-35mm-for-solar-panel-mounting-rails-361511.jpg?v=1709566514"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwalyCWIVs2-kSTFqPaJTvx46mXhN6y9SHow&s"
     },
     {
         id: 104,

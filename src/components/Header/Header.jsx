@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import styles from './HeaderStyles.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Importing icons for hamburger and close
-import logo from "../../../public/logo.png"
+import logo from "/logo.png"
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,8 @@ function Header() {
             </div>
             <nav className={`${styles.nav} ${isMenuOpen ? styles.showMenu : ''}`}>
                 <Link to="/" onClick={toggleMenu}>Home</Link>
-                <Link to="/products" onClick={toggleMenu}>Products</Link>
+                <Link to="/products" onClick={toggleMenu}>Products</Link>     
+                <HashLink smooth to="/#work" onClick={toggleMenu}>Projects</HashLink>
                 <Link to="/about" onClick={toggleMenu}>About Us</Link>
                 <Link to="/contact" onClick={toggleMenu}>Contact</Link>
             </nav>

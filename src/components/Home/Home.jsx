@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './HomeStyles.module.css';
-import solarImage from '../../assets/3d-rendering-house-model.jpg'; // Path to your image
+import solarImage from '/3d-rendering-house-model.avif'; // Path to your image
 import ecoFriendlyIcon from '../../assets/ecofriendlyIcon.png'; // Icon for eco-friendly
 import costSavingIcon from '../../assets/costSaving.png'; // Icon for cost-saving
 import reliableIcon from '../../assets/reliableIcon.png'; // Icon for reliability
+import Projects from '../Projects/Projects';
 
 function Home() {
     useEffect(() => {
@@ -63,6 +64,8 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            <Projects/>
         </section>
     );
 }

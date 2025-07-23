@@ -10,7 +10,7 @@ function Footer() {
                 <div className={styles.infoContainer}>
                     <div className={styles.contactInfo}>
                         <h4>Contact Us</h4>
-                        <p>Email: <a href="mailto:lekopowerenergy@gmail.com" className={styles.emailLink}>lekopowerenergy@gmail.com</a></p>
+                        <p>Email: <a href="mailto:lekopowerenergy@gmail.com" className={styles.emailLink}>info@lekopower.co.ke</a></p>
                         <p>Phone: +254740491306</p>
                         <p>
                             <a href="https://wa.me/254740491306" target="_blank" rel="noopener noreferrer" className={styles.whatsappLink}>
@@ -34,8 +34,9 @@ function Footer() {
                     </div>
                 </div>
                 <div className={styles.copyright}>
-                    <p>&copy; 2024 LekoPower. All rights reserved.</p>
+                  <p>&copy; {new Date().getFullYear()} LekoPower. All rights reserved.</p>
                 </div>
+
             </div>
         </footer>
     );

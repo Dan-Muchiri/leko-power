@@ -1,7 +1,7 @@
 import styles from "./ProjectStyles.module.css"
 import { IoArrowForward } from 'react-icons/io5'; // Import the arrow icon
 import dribble from "/proj2.avif"
-import project2 from "/proj3.avif"
+import project2 from "/IMG-20200626-WA0031.avif"
 import sylvestre from "/proj4.avif"
 import shepherd from "/proj1.avif"
 import asset from "/proj5.avif"
@@ -51,8 +51,8 @@ function Projects() {
                                 <div className={styles.workTitle}>
                                     <p className={styles.featuredcap}>Solar</p>
                                     <div className={styles.workSubTitle1}>
-                                        <p className={styles.workSubTitleP1}>Inverter Solutions</p>
-                                        <p className={styles.workSubTitleP2}>Installation and Configuration of Solar Inverters for Efficient Power Conversion</p>
+                                        <p className={styles.workSubTitleP1}>Commercial Installations</p>
+                                        <p className={styles.workSubTitleP2}>Installation and Configuration of Solar Power</p>
                                     </div>
                                 </div>
                                 </div>
